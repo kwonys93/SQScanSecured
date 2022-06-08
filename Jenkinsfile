@@ -35,7 +35,7 @@
 def PIPELINE_AGENT_LABEL = "ca-jenkins-agent"
 
 // The ID of the secure credentials for yor target z/OSMF
-def MAINFRAME_CREDENTIAL_ID = "MBAUTO-mainframe"
+def MAINFRAME_CREDENTIAL_ID = "eosCreds"
 
 pipeline {
     agent {
