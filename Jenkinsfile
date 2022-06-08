@@ -68,7 +68,7 @@ pipeline {
                 timeout(time: 10, unit: 'MINUTES') {
                     echo "Install Zowe CLI globally"
                     sh "npm --version"
-                   sh "npm install -g @zowe/cli@latest"
+     //              sh "npm install -g @zowe/cli@latest"
                     sh "zowe --version"
                 }
             }
