@@ -1,13 +1,13 @@
 {
-    "zosmfHost": "your.zosmf.hostname",
-    "zosmfPort": "your.zosmf.port",
+    "zosmfHost": "mvsde42.lvn.broadcom.net",
+    "zosmfPort": "1443",
     "src": {
         "cbl": [
-            "cobol.dataset1",
+            "KWOYO01.MARBLES.COBOL2",
             "cobol.dataset2"
         ],
         "cpy": [
-            "copybook.dataset1",
+            "CAAPJMF.ENDEVOR.SMPLTEST.COPYLIB",
             "copybook.dataset2"
         ],
         "pli": [
