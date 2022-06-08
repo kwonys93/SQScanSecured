@@ -42,7 +42,11 @@ pipeline {
 //    agent {
 //        label "${PIPELINE_AGENT_LABEL}"
 //    }
-
+    environment {
+        // path Details
+        JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64/jre"
+        PATH = "/opt/rh/rh-nodejs10/root/usr/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/var/lib/zowe:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el7_7.x86_64/jre:$PATH"
+    }
     stages {
         /************************************************************************
          * STAGE
