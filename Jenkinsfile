@@ -38,7 +38,7 @@ def PIPELINE_AGENT_LABEL = "ca-jenkins-agent"
 def MAINFRAME_CREDENTIAL_ID = "eosCreds"
 
 pipeline {
-    agent any
+  agent any
 //    agent {
 //        label "${PIPELINE_AGENT_LABEL}"
 //    }
